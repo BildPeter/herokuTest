@@ -1,1 +1,1 @@
-web: python punkNetz.py
+web gunicorn manage:app
