@@ -1,1 +1,1 @@
-python punkNetz.py
+web: python punkNetz.py
