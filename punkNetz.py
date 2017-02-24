@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, request
 import markovify
 
-with open('old/texts_all.txt') as file:
+with open('texts_all.txt') as file:
     text = file.read()
 markovGenerator = markovify.Text( text )
 
